@@ -26,5 +26,5 @@ function especial(esp) {
 }
 function calcular() {
     var parcial = $tela.val();
-    $tela.val(eval(parcial.replace(",",".")));
+    $tela.val(eval(parcial));
 }
