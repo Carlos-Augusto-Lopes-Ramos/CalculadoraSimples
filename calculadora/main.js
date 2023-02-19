@@ -25,7 +25,6 @@ function especial(esp) {
     }
 }
 function calcular() {
-    //Nunca use eval!(mas nesse caso vou usar para pupar tempo)
     var parcial = $tela.val();
     $tela.val(eval(parcial.replace(",",".")));
 }
